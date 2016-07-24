@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DC6B6EB71C904B7900D07643 /* BLEMi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEMi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6B6EB71C904B7900D07643 /* BLEMiblueTooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEMiblueTooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6B6EBB1C904B7900D07643 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DC6B6EBD1C904B7900D07643 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DC6B6EBE1C904B7900D07643 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		DC6B6EB81C904B7900D07643 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC6B6EB71C904B7900D07643 /* BLEMi.app */,
+				DC6B6EB71C904B7900D07643 /* BLEMiblueTooth.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,9 +86,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DC6B6EB61C904B7900D07643 /* BLEMi */ = {
+		DC6B6EB61C904B7900D07643 /* BLEMiblueTooth */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC6B6ECE1C904B7A00D07643 /* Build configuration list for PBXNativeTarget "BLEMi" */;
+			buildConfigurationList = DC6B6ECE1C904B7A00D07643 /* Build configuration list for PBXNativeTarget "BLEMiblueTooth" */;
 			buildPhases = (
 				DC6B6EB31C904B7900D07643 /* Sources */,
 				DC6B6EB41C904B7900D07643 /* Frameworks */,
@@ -98,9 +98,9 @@
 			);
 			dependencies = (
 			);
-			name = BLEMi;
+			name = BLEMiblueTooth;
 			productName = BLEMi;
-			productReference = DC6B6EB71C904B7900D07643 /* BLEMi.app */;
+			productReference = DC6B6EB71C904B7900D07643 /* BLEMiblueTooth.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DC6B6EB21C904B7900D07643 /* Build configuration list for PBXProject "BLEMi" */;
+			buildConfigurationList = DC6B6EB21C904B7900D07643 /* Build configuration list for PBXProject "BLEMiblueTooth" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -130,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC6B6EB61C904B7900D07643 /* BLEMi */,
+				DC6B6EB61C904B7900D07643 /* BLEMiblueTooth */,
 			);
 		};
 /* End PBXProject section */
@@ -267,8 +267,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BLEMi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.techshino.BLEMi;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uml-tech.www.BLEMi";
+				PRODUCT_NAME = BLEMiblueTooth;
 			};
 			name = Debug;
 		};
@@ -278,15 +278,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BLEMi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.techshino.BLEMi;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uml-tech.www.BLEMi";
+				PRODUCT_NAME = BLEMiblueTooth;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DC6B6EB21C904B7900D07643 /* Build configuration list for PBXProject "BLEMi" */ = {
+		DC6B6EB21C904B7900D07643 /* Build configuration list for PBXProject "BLEMiblueTooth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC6B6ECC1C904B7A00D07643 /* Debug */,
@@ -295,7 +295,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC6B6ECE1C904B7A00D07643 /* Build configuration list for PBXNativeTarget "BLEMi" */ = {
+		DC6B6ECE1C904B7A00D07643 /* Build configuration list for PBXNativeTarget "BLEMiblueTooth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC6B6ECF1C904B7A00D07643 /* Debug */,
