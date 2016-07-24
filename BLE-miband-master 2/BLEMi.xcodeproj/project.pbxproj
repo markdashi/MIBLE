@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC6B6EBC1C904B7900D07643 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6B6EBB1C904B7900D07643 /* main.m */; };
+		DC6B6EBF1C904B7900D07643 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6B6EBE1C904B7900D07643 /* AppDelegate.m */; };
+		DC6B6EC21C904B7900D07643 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6B6EC11C904B7900D07643 /* ViewController.m */; };
+		DC6B6EC51C904B7A00D07643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6B6EC31C904B7A00D07643 /* Main.storyboard */; };
+		DC6B6EC71C904B7A00D07643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6B6EC61C904B7A00D07643 /* Assets.xcassets */; };
+		DC6B6ECA1C904B7A00D07643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6B6EC81C904B7A00D07643 /* LaunchScreen.storyboard */; };
+		DC6B6ED21C904BE800D07643 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6B6ED11C904BE800D07643 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC6B6EB71C904B7900D07643 /* BLEMi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEMi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6B6EBB1C904B7900D07643 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC6B6EBD1C904B7900D07643 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC6B6EBE1C904B7900D07643 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC6B6EC01C904B7900D07643 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC6B6EC11C904B7900D07643 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC6B6EC41C904B7A00D07643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC6B6EC61C904B7A00D07643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC6B6EC91C904B7A00D07643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC6B6ECB1C904B7A00D07643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6B6ED11C904BE800D07643 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC6B6EB41C904B7900D07643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6B6ED21C904BE800D07643 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC6B6EAE1C904B7900D07643 = {
+			isa = PBXGroup;
+			children = (
+				DC6B6ED11C904BE800D07643 /* CoreBluetooth.framework */,
+				DC6B6EB91C904B7900D07643 /* BLEMi */,
+				DC6B6EB81C904B7900D07643 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC6B6EB81C904B7900D07643 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC6B6EB71C904B7900D07643 /* BLEMi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC6B6EB91C904B7900D07643 /* BLEMi */ = {
+			isa = PBXGroup;
+			children = (
+				DC6B6EBD1C904B7900D07643 /* AppDelegate.h */,
+				DC6B6EBE1C904B7900D07643 /* AppDelegate.m */,
+				DC6B6EC01C904B7900D07643 /* ViewController.h */,
+				DC6B6EC11C904B7900D07643 /* ViewController.m */,
+				DC6B6EC31C904B7A00D07643 /* Main.storyboard */,
+				DC6B6EC61C904B7A00D07643 /* Assets.xcassets */,
+				DC6B6EC81C904B7A00D07643 /* LaunchScreen.storyboard */,
+				DC6B6ECB1C904B7A00D07643 /* Info.plist */,
+				DC6B6EBA1C904B7900D07643 /* Supporting Files */,
+			);
+			path = BLEMi;
+			sourceTree = "<group>";
+		};
+		DC6B6EBA1C904B7900D07643 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC6B6EBB1C904B7900D07643 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC6B6EB61C904B7900D07643 /* BLEMi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC6B6ECE1C904B7A00D07643 /* Build configuration list for PBXNativeTarget "BLEMi" */;
+			buildPhases = (
+				DC6B6EB31C904B7900D07643 /* Sources */,
+				DC6B6EB41C904B7900D07643 /* Frameworks */,
+				DC6B6EB51C904B7900D07643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLEMi;
+			productName = BLEMi;
+			productReference = DC6B6EB71C904B7900D07643 /* BLEMi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC6B6EAF1C904B7900D07643 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = www.techshino.com;
+				TargetAttributes = {
+					DC6B6EB61C904B7900D07643 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = DC6B6EB21C904B7900D07643 /* Build configuration list for PBXProject "BLEMi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC6B6EAE1C904B7900D07643;
+			productRefGroup = DC6B6EB81C904B7900D07643 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC6B6EB61C904B7900D07643 /* BLEMi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC6B6EB51C904B7900D07643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6B6ECA1C904B7A00D07643 /* LaunchScreen.storyboard in Resources */,
+				DC6B6EC71C904B7A00D07643 /* Assets.xcassets in Resources */,
+				DC6B6EC51C904B7A00D07643 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC6B6EB31C904B7900D07643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6B6EC21C904B7900D07643 /* ViewController.m in Sources */,
+				DC6B6EBF1C904B7900D07643 /* AppDelegate.m in Sources */,
+				DC6B6EBC1C904B7900D07643 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC6B6EC31C904B7A00D07643 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC6B6EC41C904B7A00D07643 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC6B6EC81C904B7A00D07643 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC6B6EC91C904B7A00D07643 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC6B6ECC1C904B7A00D07643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC6B6ECD1C904B7A00D07643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC6B6ECF1C904B7A00D07643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BLEMi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.techshino.BLEMi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC6B6ED01C904B7A00D07643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BLEMi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.techshino.BLEMi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC6B6EB21C904B7900D07643 /* Build configuration list for PBXProject "BLEMi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6B6ECC1C904B7A00D07643 /* Debug */,
+				DC6B6ECD1C904B7A00D07643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC6B6ECE1C904B7A00D07643 /* Build configuration list for PBXNativeTarget "BLEMi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6B6ECF1C904B7A00D07643 /* Debug */,
+				DC6B6ED01C904B7A00D07643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC6B6EAF1C904B7900D07643 /* Project object */;
+}

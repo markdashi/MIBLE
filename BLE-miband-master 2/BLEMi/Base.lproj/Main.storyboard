@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jjG-C3-2YC">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--小米手环-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="注意：请保持所要连接的小米手环已与所有的设备断开连接" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZ9-vE-Jjc">
+                                <rect key="frame" x="20" y="510" width="280" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ngf-Nb-QX0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="gd9-2Q-vpy">
+                                <rect key="frame" x="150" y="74" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eof-sJ-jPG">
+                                <rect key="frame" x="40" y="109" width="240" height="45"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="KfE-T1-0cq"/>
+                                </constraints>
+                                <state key="normal" title="连接小米手环">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startConnectAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qIV-Nq-6Se"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQB-01-tiZ">
+                                <rect key="frame" x="40" y="169" width="240" height="45"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="qs6-do-03H"/>
+                                </constraints>
+                                <state key="normal" title="断开连接">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="disConnectAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kBa-SK-RJv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDi-VG-Wzo">
+                                <rect key="frame" x="40" y="229" width="240" height="45"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="rFf-CG-304"/>
+                                    <constraint firstAttribute="height" constant="45" id="vYY-MR-Iu5"/>
+                                </constraints>
+                                <state key="normal" title="震动">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="rFf-CG-304"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="shakeBankAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Srf-VY-WJc"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ph9-0c-DLX">
+                                <rect key="frame" x="40" y="349" width="240" height="151"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Laz-WX-ceH">
+                                <rect key="frame" x="40" y="289" width="240" height="45"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="HQK-cF-VkD"/>
+                                    <constraint firstAttribute="width" constant="100" id="Lf5-8z-gzp"/>
+                                </constraints>
+                                <state key="normal" title="停止震动">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Lf5-8z-gzp"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="stopShakeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pok-N8-wkc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Eof-sJ-jPG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="0Dc-9t-rG3"/>
+                            <constraint firstAttribute="trailing" secondItem="Laz-WX-ceH" secondAttribute="trailing" constant="40" id="6Ut-sn-Srs"/>
+                            <constraint firstItem="Laz-WX-ceH" firstAttribute="top" secondItem="IDi-VG-Wzo" secondAttribute="bottom" constant="15" id="97b-Wy-Bd5"/>
+                            <constraint firstItem="gd9-2Q-vpy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9gc-52-Cof"/>
+                            <constraint firstItem="gd9-2Q-vpy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="AQR-Ei-bUE"/>
+                            <constraint firstItem="Laz-WX-ceH" firstAttribute="top" secondItem="UQB-01-tiZ" secondAttribute="bottom" constant="15" id="CUy-jC-9Ua"/>
+                            <constraint firstItem="UQB-01-tiZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="DIF-jw-PRf"/>
+                            <constraint firstItem="MZ9-vE-Jjc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="GPZ-uQ-rzg"/>
+                            <constraint firstAttribute="trailing" secondItem="IDi-VG-Wzo" secondAttribute="trailing" constant="40" id="IS9-f5-2ec"/>
+                            <constraint firstItem="Ph9-0c-DLX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="In1-w9-d6G"/>
+                            <constraint firstItem="Laz-WX-ceH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="KRN-R5-m46"/>
+                            <constraint firstAttribute="trailing" secondItem="Eof-sJ-jPG" secondAttribute="trailing" constant="40" id="M4c-tb-w8c"/>
+                            <constraint firstAttribute="trailing" secondItem="Ph9-0c-DLX" secondAttribute="trailing" constant="40" id="NU3-aw-win"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="MZ9-vE-Jjc" secondAttribute="bottom" constant="8" id="QOS-AP-PxK"/>
+                            <constraint firstItem="IDi-VG-Wzo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="RJe-af-Lgc"/>
+                            <constraint firstItem="Eof-sJ-jPG" firstAttribute="top" secondItem="gd9-2Q-vpy" secondAttribute="bottom" constant="15" id="V91-T4-o0B"/>
+                            <constraint firstItem="MZ9-vE-Jjc" firstAttribute="top" secondItem="Ph9-0c-DLX" secondAttribute="bottom" constant="10" id="WbC-h9-4yu"/>
+                            <constraint firstItem="UQB-01-tiZ" firstAttribute="top" secondItem="Eof-sJ-jPG" secondAttribute="bottom" constant="15" id="f9D-Wk-zS4"/>
+                            <constraint firstAttribute="trailing" secondItem="MZ9-vE-Jjc" secondAttribute="trailing" constant="20" id="iJX-zl-w6k"/>
+                            <constraint firstItem="IDi-VG-Wzo" firstAttribute="top" secondItem="UQB-01-tiZ" secondAttribute="bottom" constant="15" id="jlm-v7-nQF"/>
+                            <constraint firstAttribute="trailing" secondItem="UQB-01-tiZ" secondAttribute="trailing" constant="40" id="lKY-vo-JbB"/>
+                            <constraint firstItem="Ph9-0c-DLX" firstAttribute="top" secondItem="Laz-WX-ceH" secondAttribute="bottom" constant="15" id="ofE-Jo-IG8"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="CUy-jC-9Ua"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="小米手环" id="7cH-Ev-Jx9"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="activeID" destination="gd9-2Q-vpy" id="awl-nP-V2J"/>
+                        <outlet property="connectBtn" destination="Eof-sJ-jPG" id="Qt5-o2-pbj"/>
+                        <outlet property="resultTextV" destination="Ph9-0c-DLX" id="OSU-O2-iyp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1090" y="339"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Tyh-Ik-JDm">
+            <objects>
+                <viewController id="K1I-fE-8IZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UK1-bt-lfR"/>
+                        <viewControllerLayoutGuide type="bottom" id="R7x-0m-0l3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HiO-GI-cSp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="adQ-8A-DsB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1474" y="348"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="E8h-Sy-PBw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jjG-C3-2YC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2gZ-bK-PT8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="hKs-4K-8HB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bq0-Va-MZY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="167" y="983"/>
+        </scene>
+    </scenes>
+</document>
