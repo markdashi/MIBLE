@@ -1,6 +1,6 @@
 # MI Wristband Project
 
-The Project is based on MI First-Wristband,you can experience shake function ,please support me that can make me provide more encouragement.
+The Project is based on MI First-Wristband,you can experience shake function ,please support me that can provide more encouragement.
 
 
 ## Please DowmLoad the Project give me Star or not DownLoad Thanks!
